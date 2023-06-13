@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>equal sound</title>
+        <meta charset="utf-8"> <!-- per rappresentare i caratteri speciali in modo corretto-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Playfair+Display&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/2946f7be27.js" crossorigin="anonymous"></script>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+
+    <body class="container-fluid"> <!-- rende tutto responsive-->
+        <header>
+            <i class="fa-solid fa-scale-balanced"></i> <!--icona -->
+            <h1>EQUAL SOUND</h1> 
+            <!--navbar-->
+            <nav class="navbar navbar-expand-lg navbar-expand sm navbar-light bg-light justify-content-center">
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link presentvoicemenu" href="index.html">HOME</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">GENERI</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="pop.html">Pop</a>
+                                <a class="dropdown-item" href="rock.html">Rock</a>
+                                <a class="dropdown-item" href="jazz.html">Jazz</a>
+                                <a class="dropdown-item" href="elettronica.html">Elettronica</a>
+                                <a class="dropdown-item" href="#">Classica</a>
+                                <a class="dropdown-item" href="rap.html">Rap</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="documentazione.html">DOCUMENTAZIONE</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!--fine navbar-->
+        </header>
+
+        <main>
+            <section>
+                <h2>Breaking the gender gap</h2>
+                <p>Le disuguaglianze di genere hanno sempre fatto parte dell’industria musicale e persistono ancora oggi. <br>
+                    Come mostra l’indagine <a target="_blank" class="textlink" href="articolo/articolospotify.pdf">“Inclusion in the Recording Studio?”</a> finanziata da Spotify, che valuta il genere 
+                    e l’origine etnica di artisti, cantautori e produttori nella <br> classifica “Billboard Hot 100 Year-End”, nonostante il gender gap si riduca leggermente di anno in anno, le donne sono ancora in forte minoranza 
+                    all’interno dell’industria musicale.</p>
+                    <p> Questo sito, anche se in piccolo, ha l’obiettivo di mettere finalmente sullo stesso piano artisti uomini e donne dando loro uguale visibilità. <br>
+                    Troverai per ogni genere musicale delle playlist contenenti lo stesso numero di brani eseguiti e prodotti dagli artisti più famosi del tempo, <br> appartenenti a entrambe le categorie, divisi per decenni. </p>
+            </section>
+
+<!-- card -->
+            <section>
+                <div class="row" id="genericard">
+                    <div class="col-sm-6 col-lg-4 col-md-6 cardsize">
+                        <a href="pop.html">
+                        <div class="card bg-dark text-white">
+                            <img src="home_img/pop_img.jpg" class="card-img" alt="microfono">
+                            <div class="card-img-overlay d-flex align-items-center justify-content-center">
+                              <h5 class="card-title">POP</h5>
+                            </div>
+                         </div>
+                        </a>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 col-md-6 cardsize">
+                        <a href="rock.html">
+                        <div class="card bg-dark text-white">
+                            <img src="home_img/rock_img.jpg" class="card-img" alt="chitarra elettrica">
+                            <div class="card-img-overlay d-flex align-items-center justify-content-center">
+                                <h5 class="card-title">ROCK</h5>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 col-md-6 cardsize">
+                        <a href="jazz.html">
+                        <div class="card bg-dark text-white">
+                            <img src="home_img/jazz_img.jpeg" class="card-img" alt="saxophone">
+                            <div class="card-img-overlay d-flex align-items-center justify-content-center"> <!--scritta-->
+                              <h5 class="card-title">JAZZ</h5>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 col-md-6 cardsize">
+                        <a href="elettronica.html">
+                        <div class="card bg-dark text-white">
+                            <img src="home_img/elettronic_img.jpg" class="card-img" alt="console">
+                            <div class="card-img-overlay d-flex align-items-center justify-content-center">
+                               <h5 class="card-title">ELETTRONICA</h5>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 col-md-6 cardsize">
+                        <div class="card bg-dark text-white">
+                            <img src="home_img/classica_img.jpg" class="card-img" alt="orchestra">
+                            <div class="card-img-overlay d-flex align-items-center justify-content-center">
+                                <h5 class="card-title">CLASSICA</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 col-md-6 cardsize">
+                        <a href="rap.html">
+                        <div class="card bg-dark text-white">
+                            <img src="home_img/rap_img.jpg" class="card-img" alt="cappellino con visiera">
+                            <div class="card-img-overlay d-flex align-items-center justify-content-center">
+                                <h5 class="card-title">RAP</h5>
+                            </div>
+                        </div>
+                    </a>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+    <!-- fine card -->
+
+        <footer>
+            <p> sito realizzato da Anna Pasetto</p>
+            <p> <a href="index.html">HOME</a> <a href="#genericard">GENERI</a> <a href="documentazione.html">DOCUMENTAZIONE</a> </p>
+            <a target="_blank" href="https://www.instagram.com/equal_sound/">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+        </footer>
+
+    </body>
+
+
+</html>
+
+
+
+
+
+
+
+

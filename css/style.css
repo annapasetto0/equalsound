@@ -1,0 +1,188 @@
+
+
+body {
+    margin: 0%;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+h1, h2 {
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 0.05em;
+}
+
+h2 {
+    font-size: 4em;
+    padding-bottom: 4%;
+}
+
+header {
+    color: white;
+}
+
+/* link nel testo */
+.textlink:hover {
+    font-weight: bold;
+}
+
+.textlink:visited {
+    color: gray;
+}
+/*fine link nel testo*/
+
+
+
+header, main, footer {
+    padding: 2%;
+}
+
+
+p {
+    padding-bottom: 2%;
+}
+
+
+
+/*aspetto card HOME*/
+.cardsize {
+    padding: 5%;
+}
+
+.card:hover img {
+    opacity: 0.3;
+    transition: opacity .25s ease-in-out;
+  }
+  
+  .card:hover .card-title {
+    color: white;
+  }
+  
+h5 {
+    font-family: 'Playfair Display', serif;
+    font-size: 200%;
+}
+/*fine aspetto card*/
+
+
+/*barra di navigazione*/
+.navbar {
+    background-color: black !important;
+}
+
+.nav-link {
+    color: white !important;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.dropdown-menu {
+    background-color: black;
+}
+
+.dropdown-item {
+    color:white;
+    text-decoration: none;
+}
+
+.dropdown-item:hover {
+    text-decoration: underline;
+    color: white;
+    background-color: black;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+}
+
+.presentvoicemenu {
+    text-decoration: underline;
+}
+
+/*fine barra di navigazione*/ 
+
+
+/*card artisti*/
+
+.card-gen-title {
+    color: black;
+    font-size: 1rem;
+}
+
+.card-gen-text {
+    color: black;
+    font-size: 0.8rem;
+}
+
+.row.justify-content-center {
+    justify-content: center;
+}
+
+.col-lg-6.col-md-6.col-sm-12.d-flex.justify-content-center {
+    justify-content: center;
+}
+
+.cardpop {
+    opacity: 1;
+}
+.cardpop:hover img {
+    opacity: 1;
+}
+
+@media (max-width: 576px) {
+    .cardsize {
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 20px;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .cardpop {
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 20px;
+    }
+  }
+  
+/*footer*/
+footer {
+    color: white;
+    text-align: center;
+    padding: 5px;
+    padding-bottom: 0%;
+    line-height: 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0px;
+}
+
+footer a:hover {
+    color: white;
+}
+
+
+footer i {
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+
