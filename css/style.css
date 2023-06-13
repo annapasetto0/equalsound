@@ -28,7 +28,7 @@ header {
 }
 
 .textlink:visited {
-    color: gray;
+    color: gray !important;
 }
 /*fine link nel testo*/
 
